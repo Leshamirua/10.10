@@ -4,10 +4,6 @@ Primer::Primer() {
 	b = 0;
 }
 
-Primer::Primer()
-{
-}
-
 void Primer::Example() {
 	Random();
 	int answer;

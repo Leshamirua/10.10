@@ -23,7 +23,7 @@ void Check() {
 
 int main() {
 	try {
-		Guess obj1;
+		Primer obj1;
 		obj1.Example();
 		cout << "\n";
 

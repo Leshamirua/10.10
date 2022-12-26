@@ -4,19 +4,6 @@ Massive::Massive() {
 	arr = 0;
 }
 
-Massive::Massive(const int s) : arr(nullptr), size(0) {
-	if (s <= 0) {
-		throw s;
-	}
-	arr = new int[s];
-
-	for (int i = 0; i < s; i++) {
-		arr[i] = i;
-	}
-	size = s;
-
-}
-
 Massive:: ~Massive() {
 	delete[] arr;
 }
